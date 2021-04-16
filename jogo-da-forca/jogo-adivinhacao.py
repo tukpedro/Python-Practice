@@ -2,7 +2,7 @@ import random
 
 secret_words = [
 
-    'crutch', 'abacate', 'estrume', 'candelabro', 'gaguejar', 'infinito', 'pantera', 'instinto', 'pelejar', 'rabanete'
+    'perfume', 'abacate', 'estrume', 'candelabro', 'gaguejar', 'infinito', 'pantera', 'instinto', 'pelejar', 'rabanete'
     'lagosta', 'interruptor', 'maturidade', 'pescador', 'labirinto', 'eletrocardiograma', 'extinto', 'abobrinha'
 
 ]
