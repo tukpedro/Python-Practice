@@ -3,7 +3,7 @@ import random
 palavras_secretas = [
 
     'perfume', 'abacate', 'estrume', 'candelabro', 'gaguejar', 'infinito', 'pantera', 'instinto', 'pelejar', 'rabanete'
-    'lagosta', 'interruptor', 'maturidade', 'pescador', 'labirinto', 'eletrocardiograma', 'extinto', 'abobrinha',
+    'lagosta', 'interruptor', 'maturidade', 'pescador', 'labirinto', 'eletrocardiograma', 'extinto', 'abobrinha'
 
 ]
 palavra_selecionada = palavras_secretas[random.randint(0, len(palavras_secretas)-1)]
