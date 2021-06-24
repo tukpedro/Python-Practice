@@ -10,17 +10,17 @@
 <div align="center"><img src="https://crypto.interactive-maths.com/uploads/1/1/3/4/11345755/1889186_orig.jpg" alt="Tabula Recta" align="middle"></div>
 <h4>Modo de uso:</h4>
 <ul>
-	<li>Rodar o programa;</li>
+	
   <li>Digitar a mensagem à ser criptografada;</li>
   <li>Digitar a chave de criptografia;</li>
-  <li>Será printada a mensagem criptografada;</li>
-  <li>Digitar a chave novamente para descriptografar;</li>
-  <li>Será printada a mensagem descriptografada.</li>
+	<li>Será printada a mensagem <strong><u>criptografada</u></strong>;</li>
+	<li>Digitar a chave para <strong><u>descriptografar</u></strong> a mensagem;</li>
+  <li>Será printada a mensagem <strong><u>descriptografada.</u></strong></li>
 </ul>
-<h4>Requisitos:</h4>
+<h4>Foi utilizado:</h4>
 <ul>
 	<li>Python 3+;</li>
-  <li>Desenvolvido e testado utilizando Jupyter;</li>
-  <li>Utilizado módulo Getpass. Necessário instalar para ter a funcionalidade de ocultar caracteres de senha.</li>
+  <li>Jupyter;</li>
+  <li>Módulo Getpass. Necessário instalar para ter a funcionalidade de ocultar caracteres de senha.</li>
 
 </ul>
