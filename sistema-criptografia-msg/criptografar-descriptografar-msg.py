@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 import getpass
 
 def criptografar(chave, string):
@@ -24,32 +18,31 @@ def descriptografar(chave, string):
     cripto_string = ''.join(cripto_chars)
     return cripto_string
 
+while True:
 
-msg = getpass.getpass('Digite a msg: ')
-chave = getpass.getpass('Digite a chave: ')
-e = criptografar(chave, msg)
-d = descriptografar(chave, e)
+    msg = getpass.getpass('Digite a msg: ')
+    chave = getpass.getpass('Digite a chave: ')
+    e = criptografar(chave, msg)
+    d = descriptografar(chave, e)
 
-print('-'*(len(e)+2))
-print(f' {e}')
-print('-'*(len(e)+2))
+    print('-'*(len(e)+2))
+    print(f' {e}')
+    print('-'*(len(e)+2))
 
-desc = str(input('Deseja descriptografar? S/N: ')).lower()
-while desc != 's' and desc != 'n':
-    desc = str(input('Digite S ou N: ')).lower()
-    
-if desc == 's':
-    c = getpass.getpass('Digite a chave: ')
-    while c != chave:
-        print('CHAVE INCORRETA')
+    desc = str(input('Deseja descriptografar? S/N: ')).lower()
+    while desc != 's' and desc != 'n':
+        desc = str(input('Digite S ou N: ')).lower()
+
+    if desc == 's':
         c = getpass.getpass('Digite a chave: ')
-    print('-'*(len(e)+2))
-    print(f' {d}')
-    print('-'*(len(e)+2))
-
-
-# In[ ]:
-
-
-
-
+        while c != chave:
+            print('CHAVE INCORRETA')
+            c = getpass.getpass('Digite a chave: ')
+        print('-'*(len(e)+2))
+        print(f' {d}')
+        print('-'*(len(e)+2))
+    exit = str(input('Sair? S/N: ')).lower()
+    while exit != 's' and exit != 'n':
+        exit = str(input('Digite S ou N: ')).lower()
+    if exit == 's':
+        break
