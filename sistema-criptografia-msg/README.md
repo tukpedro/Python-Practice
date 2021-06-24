@@ -4,7 +4,7 @@
 	<li><a href="https://pt.wikipedia.org/wiki/Cifra_de_Vigen%C3%A8re">Cifra Vigenére</a></li>
 </ul>
 <h4>Descrição:</h4>
-<p>A cifra de Vigenère consiste no uso de várias cifras de César em sequência, com diferentes valores de deslocamento ditados por uma "palavra-chave".</p>
+<p>A cifra de Vigenère é um método de criptografia que usa uma série de diferentes cifras de César baseadas em letras de uma senha. Trata-se de uma versão simplificada de uma mais geral cifra de substituição polialfabética, inventada por Leone Battista Alberti cerca de 1465.</p>
 <p>Para cifrar, é usada uma tabela de alfabetos (<i>tabula recta</i>) que consiste no alfabeto escrito 26 vezes em diferentes linhas, cada um deslocado ciclicamente do anterior por uma posição.</p>
 <p>As 26 linhas correspondem às 26 possíveis cifras de César. Uma palavra é escolhida como "palavra-chave", e cada letra desta palavra vai indicar a linha a ser utilizada para cifrar ou decifrar uma letra da mensagem.</p>
 <div align="center"><img src="https://crypto.interactive-maths.com/uploads/1/1/3/4/11345755/1889186_orig.jpg" alt="Tabula Recta" align="middle"></div>
